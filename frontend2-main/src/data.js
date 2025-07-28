@@ -6,7 +6,7 @@ const PRODUCTS = [
 		code:11,
 		image: require('./images/1.jpg'),
 		details:
-			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+			'Soft, steamed rice cakes served with flavorful sambar made of lentils and vegetables, topped with aromatic tempering. A healthy and light South Indian breakfast favorite..',
 	},
 	{
 		id: 2,
@@ -15,7 +15,7 @@ const PRODUCTS = [
 		code:12,
 		image: require('./images/2.jpg'),
 		details:
-			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+			'Crispy, golden-brown rice and lentil crepe, served hot with coconut chutney and sambar. Thin, light, and delicious—perfect for any time of the day.',
 	},
 	{
 		id: 3,
@@ -24,7 +24,7 @@ const PRODUCTS = [
 		code:13,
 		image: require('./images/3.jpg'),
 		details:
-			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+			'Fluffy, deep-fried whole wheat breads served with a side of flavorful curry, usually potato masala. A popular choice for a satisfying and hearty breakfast or brunch.',
 	},
 	{
 		id: 4,
@@ -33,7 +33,7 @@ const PRODUCTS = [
 		code:14,
 		image: require('./images/4.jpg'),
 		details:
-			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+			'Fragrant basmati rice layered with aromatic spices, herbs, and marinated vegetables or meat. Served with raita and a hint of lemon for a complete meal experience.',
 	},
 	{
 		id: 5,
@@ -42,7 +42,7 @@ const PRODUCTS = [
 		code:15,
 		image: require('./images/5.jpg'),
 		details:
-			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+			'Crispy fried chicken pieces tossed in spicy South Indian masala, garnished with curry leaves and green chilies. A bold and flavorful appetizer loved by spice enthusiasts.',
 	},
 	{
 		id: 6,
@@ -51,7 +51,7 @@ const PRODUCTS = [
 		code:16,
 		image: require('./images/6.jpg'),
 		details:
-			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+			'A wholesome traditional platter with rice, sambar, rasam, vegetable curry, dal, curd, pickle, papad, and a sweet. A balanced, fulfilling South Indian meal.',
 	},
 	{
 		id: 7,
@@ -60,7 +60,7 @@ const PRODUCTS = [
 		code:17,
 		image: require('./images/7.jpg'),
 		details:
-			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+			'Wok-tossed noodles mixed with fresh vegetables and a choice of sauces, offering a delightful Indo-Chinese fusion taste. Perfect for a quick, savory treat.',
 	},
 	{
 		id: 8,
@@ -69,7 +69,7 @@ const PRODUCTS = [
 		code:18,
 		image: require('./images/8.jpg'),
 		details:
-			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+			'Crispy, hollow puris filled with spiced mashed potatoes and tangy mint-flavored water. A street food classic that’s all about the burst of flavors in every bite.',
 	},
 	{
 		id: 9,
@@ -78,7 +78,7 @@ const PRODUCTS = [
 		code:19,
 		image: require('./images/9.jpg'),
 		details:
-			'Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.',
+			'India’s favorite strong and fizzy cola drink, known for its bold taste and refreshing fizz that pairs perfectly with spicy Indian meals.',
 	},
 
 ];
