@@ -1,0 +1,29 @@
+/* src/components/HomePage.css */
+
+.home {
+    background-image: url('../images/res.jpg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .card {
+    margin-top: 20px;
+  }
+  
+.con p{
+  color: greenyellow;
+  font-size: x-large;
+  font-style: oblique;
+}
+
+.home con h1{
+  font-size: large;
+  font-style: italic;
+}
+
