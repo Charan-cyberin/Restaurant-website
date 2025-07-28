@@ -2,8 +2,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import MainLayout from './pages/MainLayout.jsx';
 import Home from './pages/Home.jsx';
-import About from './pages/About.jsx';
-import Posts from './pages/Posts.jsx';
+import About from './pages/OrderForm.jsx';
+import Posts from './pages/Posts.jsx';	
 import Products from './pages/Products.jsx';
 
 import Error from './pages/Error.jsx';
