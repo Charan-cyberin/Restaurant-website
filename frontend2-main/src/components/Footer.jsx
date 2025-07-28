@@ -1,4 +1,4 @@
-import {Link, NavLink} from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -6,21 +6,22 @@ const Footer = () => {
       <div className='container'>
 
         <nav className='d-flex justify-content-center'>
-            <NavLink to='/' 
-              className={(navData) => navData.isActive ? 'nav-link tive' : 'nav-link'}
-            >Home</NavLink>
-            <NavLink to='about'
-              className={(navData) => navData.isActive ? 'nav-linkctive' : 'nav-link'}
-            >About</NavLink>
-            <NavLink to='products'
-              className={(navData) => navData.isActive ? 'nav-link ave' : 'nav-link'}
-            >Products</NavLink>
-            <NavLink to='posts'
-              className={(navData) => navData.isActive ? 'nav-link tive' : 'nav-link'}
-            >Posts</NavLink>
+          <NavLink to='/'
+            className={(navData) => navData.isActive ? 'nav-link tive' : 'nav-link'}
+          >Home</NavLink>
+          <NavLink to='about'
+            className={(navData) => navData.isActive ? 'nav-linkctive' : 'nav-link'}
+          >About</NavLink>
+          <NavLink to='products'
+            className={(navData) => navData.isActive ? 'nav-link ave' : 'nav-link'}
+          >Products</NavLink>
+          <NavLink to='posts'
+            className={(navData) => navData.isActive ? 'nav-link tive' : 'nav-link'}
+          >Posts</NavLink>
         </nav>
-        <div className="copyrights">
-          &copy; 2022 <Link to="/"> WebStylePress</Link> - All Rights Reserved.
+        <div className="copyrights text-center">
+          &copy; 2022 <Link to="/">WebStylePress</Link> - All Rights Reserved.<br />
+          Designed by Charan Teja
         </div>
       </div>
     </footer>
