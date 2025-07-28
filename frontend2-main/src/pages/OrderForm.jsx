@@ -22,12 +22,18 @@ const OrderForm = () => {
         const { name, email, phone, address, codeNumber } = formData;
 
         const subject = encodeURIComponent('New Order Request');
-        const body = encodeURIComponent(
-            `Order Details:\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nDelivery Address: ${address}\nOrder Code: ${codeNumber}`
-        );
+        const body =
+            `Name: ${name}\n` +
+            `Email: ${email}\n` +
+            `Phone Number: ${phone}\n` +
+            `Delivery Address: ${address}\n` +
+            `Order Code: ${codeNumber}`;
+
+        const encodedBody = encodeURIComponent(body);
+
 
         // Opens default mail app with pre-filled details
-        window.location.href = `mailto:your-email@example.com?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:your-itsrainytime0k@gmail.com?subject=${subject}&body=${encodedBody}`;
     };
 
     return (
